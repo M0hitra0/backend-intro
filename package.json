@@ -1,0 +1,30 @@
+{
+  "name": "backend-intro",
+  "version": "1.0.0",
+  "description": "Node.js, Express, and MongoDB backend from scratch following FreeCodeCamp tutorial",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M0hitra0/backend-intro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/M0hitra0/backend-intro/issues"
+  },
+  "homepage": "https://github.com/M0hitra0/backend-intro#readme",
+  "author": "Mohit Rao",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.3.0",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
